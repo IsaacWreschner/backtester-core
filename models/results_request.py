@@ -36,7 +36,4 @@ class ResultsRequest:
             for old_key, new_key in key_map.items()
             if old_key in json
         }
-
-        
-
         return ResultsRequest(parameters=converted)
