@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Literal
-from symbol import Symbol
+from .symbol import Symbol
 
 class Position:
     def __init__(self, id: int, symbol:Symbol, type: Literal['buy', 'sell'], 

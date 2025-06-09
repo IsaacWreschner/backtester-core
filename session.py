@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Optional
-from models import  Position, Symbol  
 from typing import Literal
+from .models import  Position, Symbol  
 
 
 class Session:
